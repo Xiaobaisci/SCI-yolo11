@@ -1,0 +1,29 @@
+# SCI_YOLO11 requirements
+# Usage: pip install -r requirements.txt
+
+# Base ------------------------------------------------------------------------
+pythonpython=3.9.19
+matplotlib>= 3.9.0
+numpy>=1.26.3
+opencv-python>=4.10.0.84
+pillow>=10.2.0
+psutil  # system resources
+PyYAML>=6.0.2
+requests>=2.32.3
+scipy>=1.13.1
+torch>= 2.3.1+cu121  # see https://pytorch.org/get-started/locally (recommended)
+torchvision>=0.18.1+cu121
+tqdm>=4.66.4
+ultralytics>=8.2.81  # https://ultralytics.com
+
+# Plotting --------------------------------------------------------------------
+pandas>=2.2.2
+seaborn>=0.13.2
+
+# Export ----------------------------------------------------------------------
+# coremltools>=6.0  # CoreML export
+# onnx>=1.16.1  # ONNX export
+# onnxruntime>=1.19.2  
+# scikit-learn<=1.5.0  # CoreML quantization
+
+
