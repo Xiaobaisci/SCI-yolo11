@@ -1,0 +1,48 @@
+## Ultralytics YOLO 🚀, AGPL-3.0 license
+## COCO 2017 dataset https://cocodataset.org by Microsoft
+## Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+## Example usage: yolo train data=coco.yaml
+## parent
+## ├── ultralytics
+## └── datasets
+##     └── coco  ← downloads here (20.1 GB)
+#
+## Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+#path: 'E:/bisaiXM/ultralytics-main/ultralytics-main/mydata_NEU'# dataset root dir
+#train: 'E:/bisaiXM/ultralytics-main/ultralytics-main/mydata_NEU/images/train' # train images (relative to 'path') 118287 images
+#val: 'E:/bisaiXM/ultralytics-main/ultralytics-main/mydata_NEU/images/val' # val images (relative to 'path') 5000 images
+#test: 'E:/bisaiXM/ultralytics-main/ultralytics-main/mydata_NEU/images/test' # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+#
+## Classes
+#names:
+#  0: crazing
+#  1: inclusion
+#  2: patches
+#  3: pitted_surface
+#  4: rolled-in_scale
+#  5: scratches
+
+# Ultralytics YOLO 🚀, AGPL-3.0 license
+# COCO 2017 dataset https://cocodataset.org by Microsoft
+# Documentation: https://docs.ultralytics.com/datasets/detect/coco/
+# Example usage: yolo train data=coco.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco  ← downloads here (20.1 GB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: 'D:/w/wjy/da/mydata1_JYZ/mydata1_JYZ'# dataset root dir
+train: 'D:/w/wjy/da/mydata1_JYZ/mydata1_JYZ/images/train' # train images (relative to 'path') 118287 images
+val: 'D:/w/wjy/da/mydata1_JYZ/mydata1_JYZ/images/val' # val images (relative to 'path') 5000 images
+test: 'D:/w/wjy/da/mydata1_JYZ/mydata1_JYZ/images/test' # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+# Classes
+names:
+  0: 110_two_hight_glass
+  1: Glass_Dirty
+  2: Glass_Loss
+  3: Polyme_Dirty
+  4: broken disc
+  5: insulator
+  6: pollution-flashover
